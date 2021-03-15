@@ -1,0 +1,18 @@
+@use './_settings' as *
+
+.header
+  display: flex
+  justify-content: flex-end
+  position: fixed
+  z-index: 1
+  top: 0
+  left: 0
+  width: 100%
+  padding: 0 20px
+  .link
+    display: inline-block
+    padding: 10px
+    transition: background-color 0.3s
+    &:hover
+      background-color: $base_color
+      color: $white_color
